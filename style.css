@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: bisque;
+}
+div{
+    height: 450px;
+    width: 600px;
+    margin: 10px;
+    border-radius: 50px;
+    padding: 20px;
+    background-color: orange;
+    overflow-y: scroll;
+}
+div:hover{
+    border: 5px black;
+    border-style: inset;
+}
+.poniedzialek, .wtorek, .sroda, .czwartek, .piatek{
+    float: left;
+}
